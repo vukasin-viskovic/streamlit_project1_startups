@@ -133,7 +133,9 @@ st.write("""
 col1, col2 = st.columns((3, 3))
 col1.metric("Minimum year:", df['year'].min())
 col2.metric("Maximum year:", df['year'].max())
-    
+
+st.write("---")
+
 st.write("""
          Now, we can move on to a more detailed analysis of our data.
          

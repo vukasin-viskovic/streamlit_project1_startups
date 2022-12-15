@@ -1,1 +1,1 @@
-https://vuxvix-streamlit-project1-startups-home-3dafwx.streamlit.app
+https://vuxvix-streamlit-project1-startups-home-d7hbdy.streamlit.app

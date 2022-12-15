@@ -116,8 +116,7 @@ with st.echo():
 
     check_nunique_missing(df)
 
-col1, col2 = st.columns((4.5, 3))
-
+col1, col2 = st.columns((5, 3))
 
 col1.write(check_nunique_missing(df))
 with col2:
@@ -126,11 +125,14 @@ with col2:
              except for the `investors` column.
              
              We'll see how to address the missing values there, when the time comes :)
+             """)
              
-             One last step in this preliminary exploratory analysis would 
-             be to check the time period our data covers.""")
-    st.metric("Minimum year:", df['year'].min())
-    st.metric("Maximum year:", df['year'].max())
+st.write("""
+         One last step in this preliminary exploratory analysis would 
+         be to check the time period our data covers.""")
+col1, col2 = st.columns((3, 3))
+col1.metric("Minimum year:", df['year'].min())
+col2.metric("Maximum year:", df['year'].max())
     
 st.write("""
          Now, we can move on to a more detailed analysis of our data.

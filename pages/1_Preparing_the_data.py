@@ -1,5 +1,4 @@
 import streamlit as st
-import os
 import pandas as pd
 from streamlit_lottie import st_lottie
 import json

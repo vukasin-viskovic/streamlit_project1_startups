@@ -3,4 +3,3 @@ pandas
 plost
 plotly
 streamlit_lottie
-json

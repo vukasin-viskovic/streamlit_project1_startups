@@ -2,7 +2,7 @@
 
 https://vuxvix-streamlit-project1-startups-home-d7hbdy.streamlit.app
 
-![Page preview]("Project3.2.png")
+![Page preview]("./Project3.2.png")
 
 This is a work-in progress app whose goal is to make Exploratory Data Analysis a bit more interactive and interesting for the user. I've made a multipage Streamlit app, with custom CSS styling and many customizable plotting features.
 
